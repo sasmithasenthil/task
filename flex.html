@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cat Family Flexbox</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background: #0ad156;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px;
+      color: #c40e9caf;
+    }
+
+    .cat-family-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .cat-card {
+      background-color: #05c0c0;
+      border-radius: 10px;
+      width: 200px;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .cat-card:hover {
+      transform: scale(1.05);
+    }
+
+    .cat-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .cat-name {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: #d31010;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐱 Cat Family Members 🐯</h1>
+
+  <div class="cat-family-container">
+    <div class="cat-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpUkWiZG01xRU21Ie1dRLqFZKONNb8_Mq7eAyBeQXOLT6FzgmnM3SIRz6YYIZ4iwPPOcs&usqp=CAU" alt="Lion">
+      <div class="cat-name">Lion</div>
+      <p> lions have strong,compact bodies and powerful forelegs,teeth and jaws for pulling down and killing prey</p>
+    </div>
+    <div class="cat-card">
+      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSRqlFDv0i1EfNdgx1rPszk5CbLOh0KnsOBBE3_k4WfIck_WQuXlQTCHpTJMJNv2PrvGD8zNLprf6_W3AKmWDVR7A" alt="Tiger">
+      <div class="cat-name">Tiger</div>
+      <p>the largest of all the asian big cats,tigers rely primarily on sight and sound rather then smell for hunting they typically hunt alone and stalk prey</p>
+    </div>
+    <div class="cat-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi1zCbG9inbWYaJuxuri1LbmVaJZt-P1AdjOTcXT9jNOOqhyjp_w-gWFf8BY-d5s8OiN0&usqp=CAU" alt="Leopard">
+      <div class="cat-name">Leopard</div>
+      <p>leopards are the smallest of the large cats,which includes lions,tigers,and Jaguars.female leopards weigh 46 to 132 pounds and males weigh 80 to 165 pounds</p>
+    </div>
+    <div class="cat-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdKYuLTQEKko3AO6yVpKnUTDOf5BTf0Opigo_FMt1AUSHk9pH9_Q8ZErKpi_YO7RbUAhk&usqp=CAU" alt="Cheetah">
+      <div class="cat-name">Cheetah</div>
+      <p>the Cheetah is the worlds fastest land animal and africas most ebdangered big cat</p>
+    </div>
+    <div class="cat-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfOSwgW-V3c8SmcxcTCeLf3BHa20hoDB9EvjbHCnTAH3GEXdXXesK7cZ9-4a4GS1tHqhM&usqp=CAU" alt="Jaguar">
+      <div class="cat-name">Jaguar</div>
+      <p>the jagura is the largest cat native to the americas and the third largest cat in the world after tigers and lions</p>
+    </div>
+  </div>
+
+</body>
+</html>
