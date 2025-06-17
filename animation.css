@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white(161, 158, 154, 0.897);
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    animation: header 1s ease-in-out;
+
+}
+@keyframes header{
+    0%{
+        transform: translatey(-100%);
+    }
+}
+
+nav ul{
+    display:inline-block;
+}
+nav il{
+    margin: 10px 20px;
+    font-weight: 600;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.content{
+    width: 50%;
+    margin-top: 8%;
+    margin-left:5% ;
+    color: rgb(76, 170, 142);
+    overflow: hidden;
+    animation: content 1s ease-in-out;
+}
+@keyframes content{
+    0%{
+        opacity: 0;
+        transform:translatex(-50%)
+    }
+}
+.content  h1{
+    font-size: 25px;
+    margin-bottom: 1%;
+    letter-spacing: 8px;
+
+}
+.content h3{
+    font-size: 25px;
+    margin-bottom: 3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    color: rgb(77, 147, 150);
+
+}
+button{
+    padding: 15px 30px;
+    background: transparent;
+    color: aliceblue;
+    font-size: 17px;
+    border-radius: 10px;
+
+}
+button:hover{
+    background: rgb(180, 118, 161)
+
+}
+.image{
+    width: 50%;
+    margin-top: 8%;
+}
+img{
+    width: 70%;
+    animation: car 5s linear infinite;
+}
+@keyframes car{
+    0%{
+        transform: translatex(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+@media screen and (max-width:1200px){
+
+
+
+    .content{
+      width: 100%;
+      text-align: center;
+}
+.image{
+    width: 100px;
+    position: absolute;
+    bottom:-5%;
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    width: 2rem;
+}
+}

@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.top-bar {
+  background-color: #773e10;
+  color: #3d0707;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.social-icons a {
+  color: #16ced4;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.navbar {
+  background: #ebf1f1;
+  color: rgb(112, 7, 7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu a {
+  color: rgb(153, 50, 84);
+  text-decoration: none;
+}
+
+.carousel img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.about {
+  display: flex;
+  padding: 40px;
+  background: #80bb14;
+}
+
+.about-image img {
+  width: 300px;
+  margin-right: 40px;
+}
+
+.services {
+  background-color: #6b1818;
+  padding: 40px;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 600px;
+  height: 600px;
+  background: #06979c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  background: #07719b;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #c43535;
+}
+
+.contact button {
+  padding: 10px;
+  background: #220a8f;
+  color: rgb(107, 5, 47);
+  border: none;
+}
